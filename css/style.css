@@ -1,0 +1,72 @@
+h1 > a {
+    color: #5e9c97;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    text-align: center;
+    font-size: 75px;
+    width: 900px;
+    transition: 2s;
+}
+
+a:hover, a:active {
+    color: #f9bc83;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.jumbotron-index {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 50%;
+    max-width: 100%;
+    min-height: 20%;
+    min-width: 30%;
+    background-image: url("../images/main-header-platter.jpg");
+    background-size: cover;
+}
+
+.index-image1 {
+    height: 275px;
+    width: 97%;
+    border: 5px 10px;
+    background-image: url("../images/blueberry-muffins.jpg");
+    background-size: cover;
+}
+
+.index-image2 {
+    height: 275px;
+    width: 97%;
+    border: 5px 10px;
+    background-image: url("../images/desserts.jpg");
+    background-size: cover;
+}
+
+.index-image3 {
+    height: 275px;
+    width: 97%;
+    border: 5px 10px;
+    background-image: url("../images/raspberry-pie.jpg");
+    background-size: cover; 
+}
+
+.masonry-item {
+  width: 20%;
+}
+
+/*
+.navbar-dark .navbar-nav .nav-link {
+    color: pink;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: purple;
+}
+
+#carouselOfDogs {
+    width: 100%;
+    max-width: 700px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+*/
