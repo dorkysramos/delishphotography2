@@ -1,9 +1,11 @@
 $(document).ready(function(){
-  $('.masonry-container').masonry({
+  var $grid = $('.masonry-container').masonry({
     // options
     itemSelector: '.masonry-item'
   });
-
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
 });
 
 $('textarea.expand').focus(function () {
